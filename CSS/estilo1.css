@@ -1,0 +1,136 @@
+/*@import "tooltip.css";*/
+
+* {
+	text-align: center;
+    /*white-space: nowrap;*/
+}
+
+body {
+	font-family: Arial;		
+	background-image: radial-gradient(black 80%, #770000 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: 1s color 1;
+}
+
+/*
+------- Estilo CEBRA - Zebra Striping
+------- que lo implemento con JavaScript xq cuando filtramos
+------- por busqueda se rompre el zebra
+tbody tr:nth-child(even) {
+   background-color: rgba(0,200,0,0.5);
+}
+*/
+
+h1,h2 {
+	font-family: Impact;
+	color: black;
+	text-shadow: 1px 1px 3px green, 0 0 100px red, 0 0 15px white;
+	padding: 0px 0px 0px 0px;
+	margin: 0.3em 0px 0.1em 0px;
+}
+
+@keyframes color {
+	5% {background-image: radial-gradient(black 5%, #770000 100%);}
+	10% {background-image: radial-gradient(black 10%, #770000 100%);}
+	20% {background-image: radial-gradient(black 20%, #770000 100%);}
+    30% {background-image: radial-gradient(black 30%, #770000 100%);}
+	40% {background-image: radial-gradient(black 40%, #770000 100%);}
+	50% {background-image: radial-gradient(black 50%, #770000 100%);}
+	60% {background-image: radial-gradient(black 65%, #770000 100%);}
+	70% {background-image: radial-gradient(black 73%, #770000 100%);}
+	80% {background-image: radial-gradient(black 76%, #770000 100%);}
+	90% {background-image: radial-gradient(black 78%, #770000 100%);}
+	95% {background-image: radial-gradient(black 79%, #770000 100%);}
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+input {
+	color: white;
+	font-size: 2em;
+	background: black;
+    outline:0px;
+	width: 50%;
+	margin-top: 0.8em;	
+	margin-bottom: 0.2em;
+    border-radius: 0.8em 0.8em 0.8em 0.8em;
+}
+
+button {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+table {
+	width:90%;
+    margin-left:5%; 
+    margin-right:5%;
+    border-collapse: separate;
+    border-spacing: 1px 3px;
+}
+
+table, th {
+	color: white;
+}
+
+th {
+	border-radius: 0.5em 0.5em 0em 0em;
+	color: #EF3A38;
+	font-size: 2em;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	text-shadow: 3px 3px 1px #000000;
+	background: #660000;
+}
+
+tr {
+	height: 1.5em;
+    background: rgba(0,150,0,0.5);
+    border-radius: 0.8em 0.8em 0.8em 0.8em;
+}
+
+td {
+    border-radius: 0.8em 0.8em 0.8em 0.8em;
+}
+
+/* td {
+	background: rgba(0,150,0,0.5);
+}*/
+
+.cINT {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-shadow: 2px 2px #000000;
+}
+
+.row-cebra {
+    background-color: rgba(0,100,0,0.5);
+}
+
+.rowMostrar {
+    transition: 0.5s;
+}
+
+.rowMostrar:hover {
+    background: rgb(69,69,69);
+    transition: 0.2s;
+}
+
+.rowOcultar {
+    font-size: 0em;
+	display: none;
+}
+
+.rowOFI {
+    padding-left: 5%;
+    padding-right: 1%;
+    text-align: left;
+}

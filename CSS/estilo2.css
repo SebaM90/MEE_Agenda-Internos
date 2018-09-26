@@ -1,0 +1,52 @@
+* {
+	font-family: Verdana;
+	text-align: left;
+}
+
+h1,h2 {
+	text-align: center;
+	color: red;
+}
+
+input, button {
+	display: none;
+}
+
+table {
+    border-collapse: collapse;
+	border: 2px solid black;
+}
+
+th, td {
+	color: white;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th {
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	background: black;
+}
+
+
+td {
+	color: black;
+	background: white;
+}
+
+.cINT {
+	font-weight: bold;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	text-align: center;
+}
+
+.rowMostrar {
+	display: table-row;
+}
+
+.rowOcultar {
+	display: none;
+}
