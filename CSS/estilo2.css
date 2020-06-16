@@ -3,9 +3,33 @@
 	text-align: left;
 }
 
+#idNavidad {
+	display:none;
+}
+
+th:nth-child(8), th:nth-child(9) {
+	display: none
+}
+
+td:nth-child(8), td:nth-child(9) {
+	display: none
+}
+
+table td {
+	background-color: white !important;
+}
+
+table th, h1, h2 {
+	transition: 2s ease-in;
+}
+
 h1,h2 {
 	text-align: center;
 	color: red;
+}
+
+img {
+	display: none;
 }
 
 input, button {
@@ -29,7 +53,6 @@ th {
 	font-size: 1.2em;
 	background: black;
 }
-
 
 td {
 	color: black;

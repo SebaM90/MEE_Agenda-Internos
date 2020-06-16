@@ -7,7 +7,7 @@
         $num++;
         
         // si el dia de HOY difiere del dia de modificacion
-        // del archivo, entonces empezar restablecer a cero
+        // del archivo, entonces restablecer a cero
         $diaARCH = date("j", filemtime($fichero));
         $diaHOY = date("j");
         if ($diaHOY<>$diaARCH) {
